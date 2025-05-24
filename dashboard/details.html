@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Air Pollution Monitoring System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="graphs.html">Graphs</a></li>
+                <li><a href="details.html">Details</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="details">
+            <h2>Air Quality Metrics</h2>
+            
+            <div id="averages">
+                <h3>Averages for Last 50 Records</h3>
+                <p>Average PM2.5: <span id="avg-pm25">Loading...</span> µg/m³</p>
+                <p>Average PM10: <span id="avg-pm10">Loading...</span> µg/m³</p>
+                <p>Average Temperature: <span id="avg-temperature">Loading...</span> °C</p>
+                <p>Average CO2: <span id="avg-co2">Loading...</span> ppm</p>
+            </div>
+        </section>
+
+        <section id="random-picture">
+            <h2>Did You Know?</h2>
+            <p>Air pollution is responsible for approximately 7 million premature deaths annually. Small changes in our daily habits can help reduce air pollution and protect our environment.</p>
+            <div id="random-image-container">
+                <img id="random-image" src="air-quality-1600x1000-1.jpg" alt="Random Air Pollution">
+            </div>
+        </section>
+
+        <section id="facts">
+            <h2>Interesting Facts</h2>
+            <ul>
+                <li>Indoor air pollution can be 2-5 times worse than outdoor air pollution.</li>
+                <li>Using public transport reduces your carbon footprint significantly.</li>
+                <li>Trees not only absorb CO2 but also filter harmful air pollutants.</li>
+                <li>Regular maintenance of vehicles can reduce harmful emissions.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Air Quality Dashboard by Team 23</p>
+    </footer>
+
+    <script src="details.js"></script>
+</body>
+</html>

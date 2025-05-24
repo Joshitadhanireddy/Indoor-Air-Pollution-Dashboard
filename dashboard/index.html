@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Air Pollution Monitoring System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="graphs.html">Graphs</a></li>
+                <li><a href="details.html">Details</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <h2>Welcome to the Air Pollution Monitoring System</h2>
+                <p>Track and understand the air quality in your surroundings. Stay informed and protect your health.</p>
+                <a href="#about"><button class="learn-more">Learn More</button></a>
+            </div>
+            <div class="hero-image">
+                <img src="air-pollution.jpeg" alt="Air Pollution">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Air Pollution</h2>
+            <p>
+                Air pollution is one of the world's largest environmental health threats, causing millions of deaths annually. Monitoring air quality helps us understand the pollutants around us and take preventive measures to safeguard our health and the environment.
+            </p>
+            <div class="about-images">
+                <img src="air_pollution_og.jpg" alt="Prevention of Air Pollution">
+                <img src="air_monitoring.webp" alt="Air Pollution Monitoring">
+            </div>
+        </section>
+
+        <section id="current-data">
+            <h2>Current Air Quality</h2>
+            <p>PM2.5: <span id="pm25">Loading...</span> µg/m³</p>
+            <p>PM10: <span id="pm10">Loading...</span> µg/m³</p>
+            <p>Temperature: <span id="temperature">Loading...</span> °C</p>
+            <p>CO2: <span id="co2">Loading...</span> ppm</p>
+            <h3>Air Quality Index (AQI): <span id="aqi">Loading...</span></h3>
+        </section>
+
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <p id="aqi-status">Please wait for data...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Air Quality Dashboard by Team 23</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

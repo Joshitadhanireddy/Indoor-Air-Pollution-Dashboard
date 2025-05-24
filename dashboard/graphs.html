@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Graphs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Air Pollution Monitoring System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="graphs.html">Graphs</a></li>
+                <li><a href="details.html">Details</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="graphs">
+            <h2>Historical Data</h2>
+            <canvas id="pm25-chart"></canvas>
+            <canvas id="pm10-chart"></canvas>
+            <canvas id="temperature-chart"></canvas>
+            <canvas id="co2-chart"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Air Quality Dashboard by Team 23</p>
+    </footer>
+
+    <script src="graph.js"></script>
+</body>
+</html>
